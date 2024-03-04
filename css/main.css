@@ -7,6 +7,23 @@
 }
 
 body {
-    font-family: "Fira Code";
     background-color: black;
+    
+    background: linear-gradient(0deg, rgba(140,34,191,1) 0%, rgba(18,11,107,1) 100%);
+    
+    color: black;
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+    transition: background-color 0.5s ease;
+
+    font-family: "Fira Code";
+}
+
+
+h2 {
+    color: white;
+    font-family: "Fira Code";
 }
