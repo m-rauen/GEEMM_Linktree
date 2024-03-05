@@ -4,12 +4,18 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black;
     
     background: linear-gradient(0deg, rgba(140,34,191,1) 0%, rgba(18,11,107,1) 100%);
     
-    color: black;
-    
+    color: black; */
+   
+    background-color: black;
+    background-image: url('../assets/karlis-reimanis-Y31Z6Mf7rys-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -20,15 +26,18 @@ body {
 }
 
 
-h2 {
+h3 {
     display: block;
+    font-size: 20px;
+    text-align: center;
     margin: 0 auto;
     max-width: 60%;
     color: white;
 }
 
-img {
+.geem-logo {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 70%;
+    filter: brightness(200%);
 }
