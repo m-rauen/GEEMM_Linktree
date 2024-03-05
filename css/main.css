@@ -28,7 +28,7 @@ body {
 
 h3 {
     display: block;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin: 0 auto;
     max-width: 60%;
@@ -40,4 +40,12 @@ h3 {
     margin: 0 auto;
     max-width: 70%;
     filter: brightness(200%);
+}
+
+/* make hover change colors (bg black, letter white / bg white, letter black) */
+li {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
