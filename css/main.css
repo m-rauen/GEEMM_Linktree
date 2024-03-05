@@ -25,7 +25,6 @@ body {
     font-family: "Fira Code";
 }
 
-
 h3 {
     display: block;
     font-size: 22px;
@@ -42,10 +41,68 @@ h3 {
     filter: brightness(200%);
 }
 
+.centered-div {
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
+
+/* .github-container{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+} */
+
+.github-img {
+    width: 30px;
+    height:30px;
+    margin-right: 50px;
+
+}
+.zenodo-img {
+    width: 50px;
+    height: 25px;
+    margin-right: 50px;
+
+}
+.email-img {
+    width: 30px;
+    /* width: fit-content; */
+    height: 30px;
+    margin-right: 40px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ul{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+}
+
 /* make hover change colors (bg black, letter white / bg white, letter black) */
 li {
     color: white;
-    font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
