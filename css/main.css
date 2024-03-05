@@ -11,7 +11,7 @@ body {
     color: black; */
    
     background-color: black;
-    background-image: url('../assets/karlis-reimanis-Y31Z6Mf7rys-unsplash.jpg');
+    background-image: url('../assets/quantum-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,6 +90,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Fira Code';
   }
 
 ul{
