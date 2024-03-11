@@ -4,11 +4,6 @@
 }
 
 body {
-    
-    /* background: linear-gradient(0deg, rgba(140,34,191,1) 0%, rgba(18,11,107,1) 100%);
-    
-    color: black; */ */
-   
     background-color: black;
     background-image: url('../assets/quantum-bg.jpg');
     background-size: cover;
@@ -30,6 +25,34 @@ h3 {
     color: white;
 }
 
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    font-family: 'Fira Code';
+  }
+
+ul{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    /* display: flex; */
+    list-style: none;
+}
+
+/* make hover change colors (bg black, letter white / bg white, letter black) */
+li {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
 .geem-logo {
     display: block;
     margin: 0 auto;
@@ -38,10 +61,13 @@ h3 {
 }
 
 .centered-div {
-    position: fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%)
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+
 }
 
 .github-img {
@@ -61,32 +87,4 @@ h3 {
     /* width: fit-content; */
     height: 30px;
     margin-right: 40px;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: gray;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Fira Code';
-  }
-
-ul{
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0;
-    display: inline-block;
-    list-style: none;
-}
-
-/* make hover change colors (bg black, letter white / bg white, letter black) */
-li {
-    color: white;
-    font-size: 20px;
-    text-align: center;
 }
