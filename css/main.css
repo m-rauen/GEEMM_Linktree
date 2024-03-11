@@ -6,8 +6,9 @@
 body {
     background-image: url('../assets/quantum-bg.jpg');
     background-size: cover;
-    background-position:center; 
+    background-position:center center; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -60,13 +61,27 @@ li:not(:last-child) {
     filter: brightness(200%);
 }
 
-.centered-div {
+.center-div {
     display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-div {
+    /* display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    text-align: center;
+    text-align: center; */
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
 }
 
 .github-img {
@@ -101,21 +116,28 @@ li:not(:last-child) {
 
 .email-img {
     width: 30px;
-    /* width: fit-content; */
     height: 30px;
     margin-right: 40px;
 }
 
-/* .teste-fora {
-    display: flex;
+.teste-fora {
+    /* display: block;
+    text-align: center;
     justify-content: center; 
     align-items: center; 
     width: 300px; 
     height: 200px; 
-    border: 2px solid #ccc;
+    border: 2px solid #ccc; */
+    border: 2px solid greenyellow;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .teste-dentro {
     text-align: center;
-    color: white;
-} */
+    color: black;
+    margin: 10px auto;
+}
