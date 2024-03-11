@@ -4,12 +4,11 @@
 }
 
 body {
-    background-color: black;
     background-image: url('../assets/quantum-bg.jpg');
     background-size: cover;
-    background-position: center;
+    background-position:center; 
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
     transition: background-color 0.5s ease;
@@ -26,32 +25,33 @@ h3 {
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 150%;
+    padding: 0;
+    margin: 0;
     background-color: gray;
     color: white;
-    border: none;
+    border: 3px solid white;
     border-radius: 99px;
     cursor: pointer;
     font-family: 'Fira Code';
+    font-size: 16px;
   }
 
 ul{
     width: fit-content;
     margin: 0 auto;
     padding: 0;
-    /* display: flex; */
     list-style: none;
 }
 
-/* make hover change colors (bg black, letter white / bg white, letter black) */
-li {
-    color: white;
-    font-size: 20px;
-    text-align: center;
+
+li:not(:last-child) {
+    margin-bottom: 15px;
 }
+
 
 .geem-logo {
     display: block;
@@ -66,25 +66,56 @@ li {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    height: 100vh;
-
+    text-align: center;
 }
 
 .github-img {
     width: 30px;
     height:30px;
-    margin-right: 50px;
-
+    padding: 10px;
+    background-attachment: fixed; 
 }
+
+.github-text {
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-right: 200px;
+}
+
 .zenodo-img {
     width: 50px;
     height: 25px;
-    margin-right: 50px;
+    padding: 10px;
+    background-attachment: fixed;
 
 }
+
+.zenodo-text {
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-right: 200px;
+
+}
+
 .email-img {
     width: 30px;
     /* width: fit-content; */
     height: 30px;
     margin-right: 40px;
 }
+
+/* .teste-fora {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 300px; 
+    height: 200px; 
+    border: 2px solid #ccc;
+}
+
+.teste-dentro {
+    text-align: center;
+    color: white;
+} */
