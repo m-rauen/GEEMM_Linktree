@@ -44,11 +44,10 @@ button {
 ul{
     width: 300px;
     margin-right: 200px;
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 0;
     list-style: none;
 }
-
 
 li:not(:last-child) {
     margin-bottom: 25px;
@@ -121,6 +120,19 @@ li:not(:last-child) {
 }
 
 .mail-txt {
+    padding: 0;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.lattes-image {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-attachment: fixed;
+}
+
+.lattes-text {
     padding: 0;
     justify-content: space-evenly;
     margin: 0 auto;
