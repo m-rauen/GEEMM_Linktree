@@ -69,22 +69,6 @@ li:not(:last-child) {
     transform: translate(-50%, -50%);
 }
 
-/* .centered-div {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    text-align: center;
-}
-
-.github-img {
-    width: 30px;
-    height:30px;
-    padding: 10px;
-    background-attachment: fixed; 
-} */
-
 .gh-img {
     width: 30px;
     height: 30px;
@@ -137,35 +121,6 @@ li:not(:last-child) {
     justify-content: space-evenly;
     margin: 0 auto;
 }
-
-/* .github-text {
-    padding: 0;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    margin-right: 200px;
-}
-
-.zenodo-img {
-    width: 50px;
-    height: 25px;
-    padding: 10px;
-    background-attachment: fixed;
-
-}
-
-.zenodo-text {
-    padding: 0;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    margin-right: 200px;
-
-}
-
-.email-img {
-    width: 30px;
-    height: 30px;
-    margin-right: 40px;
-} */
 
 /* .teste-fora {
     border: 2px solid greenyellow;
