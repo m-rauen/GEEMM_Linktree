@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
-    background-image: url('../assets/quantum-bg.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../assets/quantum-bg.jpg');
     background-size: cover;
     background-position:center center; 
     background-repeat: no-repeat;
@@ -120,6 +125,17 @@ li:not(:last-child) {
     padding: 0;
     justify-content: space-evenly;
     margin: 0 auto;
+}
+
+.ownership-container {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* .teste-fora {
