@@ -1,4 +1,4 @@
-import {links} from './links.js'
+import links from './links';
 
 function scale_animation() {
     const option_btn = document.querySelector('.button');
@@ -8,15 +8,18 @@ function scale_animation() {
     });
 }
 
-function add_links(links_array) {
-    links_array.forEach(button => {
-        const buttonElement = document.getElementById(button.name); 
+function add_links() {
+    links.forEach(button => {
+        const buttonElement = document.getElementById(button.name);
         if (buttonElement) {
             buttonElement.addEventListener('click', () => {
-                window.location.href = button.link;
+                window.open(button.link, '_blank');
             });
+            buttonElement.style.cursor = 'pointer'; // Change cursor to indicate it's clickable
         } else {
-            console.error(`element '${button.name}' bugado`)
+            console.error(`Element with id '${button.name}' not found.`);
         }
     });
 }
+
+add_links()

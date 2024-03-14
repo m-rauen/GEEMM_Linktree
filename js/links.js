@@ -1,18 +1,18 @@
 export const links = [ 
 	{ 
-		name: 'GitHub', 
+		name: 'github', 
 		link: 'https://github.com/geem-lab', 
 	}, 
 	{ 
-		name: 'Zenodo', 
+		name: 'zenodo', 
 		link: 'https://zenodo.org/communities/qcomp/records?q=&l=list&p=1&s=10&sort=newest', 
 	}, 
 	{
-		name: 'Giovanni',
+		name: 'giovanni',
 		link: 'http://lattes.cnpq.br/0271249291940695',
 	},
 	{
-		name: 'Luis',
+		name: 'luis',
 		link: 'http://lattes.cnpq.br/1401417310558688'
 	}
 ];
