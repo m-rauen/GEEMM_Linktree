@@ -2,14 +2,21 @@ import {links} from './links.js'
 
 function scale_animation() {
     const option_btn = document.querySelector('.button');
-    option_btn.classList.add('hover'); // Add the 'hover' class on hover
+    option_btn.classList.add('hover'); 
     option_btn.addEventListener('mouseleave', function() {
-        option_btn.classList.remove('hover'); // Remove the 'hover' class when mouse leaves
+        option_btn.classList.remove('hover'); 
     });
 }
 
-// const linkContainer = document.getElementById('links-option_btn')
-
-// function generateLink(name, link) {
-//     return 
-// }
+function add_links(links_array) {
+    links_array.forEach(button => {
+        const buttonElement = document.getElementById(button.name); 
+        if (buttonElement) {
+            buttonElement.addEventListener('click', () => {
+                window.location.href = button.link;
+            });
+        } else {
+            console.error(`element '${button.name}' bugado`)
+        }
+    });
+}
