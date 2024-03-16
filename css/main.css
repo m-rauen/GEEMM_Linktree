@@ -52,6 +52,11 @@ button {
     transform: scale(1.15);
 }
 
+.hide {
+    display: none;
+    transition: transform 1s ease;
+}
+
 ul{
     width: 300px;
     margin-right: 200px;
