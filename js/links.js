@@ -1,4 +1,4 @@
-export const links = [ 
+export const page_links= [ 
 	{ 
 		name: 'github', 
 		link: 'https://github.com/geem-lab', 
