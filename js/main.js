@@ -15,7 +15,7 @@ function add_links() {
             buttonElement.addEventListener('click', () => {
                 window.open(button.link, '_blank');
             });
-            buttonElement.style.cursor = 'pointer'; // Change cursor to indicate it's clickable
+            buttonElement.style.cursor = 'pointer';
         } else {
             console.error(`Element with id '${button.name}' not found.`);
         }
