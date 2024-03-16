@@ -9,12 +9,19 @@ function scale_animation() {
 }
 
 function add_links() {
-    page_links.forEach(link => {
-        const anchor = document.getElementById(link.name)
-        if (anchor && anchor.tagName.toLowerCase() === 'a') {
-            anchor.href = link.link;
-        }
-    });
+    const a = document.getElementById('a-github');
+    a.href = 'http://github.com'
+
+    // a = document.getElementById('a-github')
+    // a.href = 'http://github.com';
+
+    // page_links.forEach(link => {
+    //     const anchor = document.getElementById(link.name)
+    //     if (anchor && anchor.tagName.toLowerCase() === 'a') {
+    //         anchor.href = 'http://github.com';
+    //     }
+    // });
+
     // const page_button = document.getElementById('button')
     // if (button && links.name === button.id) {
     //     window.location= links.link;

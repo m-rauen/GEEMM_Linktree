@@ -16,3 +16,4 @@ export const page_links= [
 		link: 'http://lattes.cnpq.br/1401417310558688'
 	}
 ];
+
