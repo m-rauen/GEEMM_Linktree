@@ -52,11 +52,6 @@ button {
     transform: scale(1.15);
 }
 
-.hide {
-    display: none;
-    transition: transform 1s ease;
-}
-
 ul{
     width: 300px;
     margin-right: 200px;
@@ -141,24 +136,9 @@ li:not(:last-child) {
     color: white;
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
     text-align: center;
     padding: 10px;
     font-size: 12px;
     font-weight: bold;
 }
-
-/* .teste-fora {
-    border: 2px solid greenyellow;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.teste-dentro {
-    text-align: center;
-    color: black;
-    margin: 10px auto;
-} */
