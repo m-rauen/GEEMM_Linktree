@@ -3,26 +3,6 @@
     margin: 0;
 }
 
-@media only screen and (max-device-width: 800px) and (orientation: landscape) {
-
-    h3 {
-        display: block;
-        color: white;
-        text-align: center;
-        justify-content: center;
-
-     }
-
-     button {
-        width: 10px;
-     }
-
-     ul {
-        width: 10px;
-     }
-  
-  }
-
 a {
     text-decoration: none;
     color: white;
@@ -43,11 +23,9 @@ body {
 
 h3 {
     display: block;
-    /* font-size: 22px; */
     font-size: 1.375rem;
     text-align: center;
     margin: 0 auto;
-    /* max-width: 60%; */
     color: white;
 }
 
@@ -162,4 +140,29 @@ li:not(:last-child) {
     padding: 10px;
     font-size: 12px;
     font-weight: bold;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    h3 {
+        font-size: 1.05rem;
+    }
+
+    ul {
+        
+    }
+
+    button {
+        width: 90%;
+        height: 10vh;
+        margin-left: 120px;
+
+    }
+
+    .geem-logo {
+        filter: brightness(210%);
+    }
+
+    .ownership-container {
+        display: none;
+    }
 }
