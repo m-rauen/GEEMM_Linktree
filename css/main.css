@@ -143,19 +143,47 @@ li:not(:last-child) {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     h3 {
         font-size: 1.05rem;
     }
 
-    ul {
-        
+    button {
+        width: 200px;
+        margin-left: 150px;
+        font-size: 0.9rem;
     }
 
-    button {
-        width: 90%;
-        height: 10vh;
-        margin-left: 120px;
+    li:not(:last-child) {
+        margin-bottom: 15px;
+    }
 
+    .center-div {
+        height: 100vh;
+        top: 43%;
+    }
+
+    .gh-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .znd-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .mail-img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .lattes-image {
+        width: 25px;
+        height: 25px;
     }
 
     .geem-logo {
@@ -163,6 +191,10 @@ li:not(:last-child) {
     }
 
     .ownership-container {
-        display: none;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        font-size: 0.5rem;
+        padding: 2px;
     }
 }
