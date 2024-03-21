@@ -41,6 +41,7 @@ button {
     border: 3px solid white;
     border-radius: 99px;
     cursor: pointer;
+
     font-family: 'Fira Code';
     font-size: 1rem;
 
@@ -142,11 +143,7 @@ li:not(:last-child) {
     font-weight: bold;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-        overflow-x: hidden;
-    }
-    
+@media only screen and (max-device-width: 480px) {
     h3 {
         font-size: 1.05rem;
     }
@@ -163,7 +160,7 @@ li:not(:last-child) {
 
     .center-div {
         height: 100vh;
-        top: 43%;
+        top: 63%;
     }
 
     .gh-img {
@@ -191,6 +188,7 @@ li:not(:last-child) {
     }
 
     .ownership-container {
+        overflow: hidden;
         bottom: 0;
         right: 0;
         left: 0;
